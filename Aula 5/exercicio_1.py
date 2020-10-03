@@ -8,19 +8,25 @@
 vetor = []
 
 while len(vetor) < 5: # limito o vetor a cinco possições
-    x = int(input('Enteder e number: '))
+    x = int(input('Enter a number: '))
     vetor.append(x)
     
 maior_par = 0
 maior_impar = 0
+soma = 0 
 for elemento in vetor: # é pra usar a função para maior  
+        soma += elemento
+
+        # maior par e maior impar
         if elemento % 2 == 0 and elemento > maior_par:
             maior_par = elemento
         else:
             if elemento > maior_impar:
                 maior_impar = elemento
-
+media = soma / len(vetor)
     
 print(vetor)
 print('Maior elemento par:', maior_par)
 print('Maior elemento impar:', maior_impar)
+print('Somatorio dos elementos do vetor:', soma)
+print('Média:', media)
