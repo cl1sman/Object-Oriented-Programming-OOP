@@ -4,54 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fbf43d8-af22-43d9-a1dd-a981ccd2585d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Matriz/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Matriz/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Matriz/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Matriz/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Matriz/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Matriz/Matriz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Matriz/src/Matriz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/StaticDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo/src/StaticDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/StaticDemo2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../StaticDemo2/src/StaticDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/Valor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Valor/src/Valor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/matriz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/multiplicacaoDeMatrizes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../multiplicacaoDeMatrizes/src/matrizes/Matrizes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3fbf43d8-af22-43d9-a1dd-a981ccd2585d" name="Changes" comment="cha de caixa">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,13 +33,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\GitHub\po\LPOO - P02 - 2021 - 2 - Java\Matriz\.idea" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -111,6 +73,7 @@
       <workItem from="1633193179811" duration="812000" />
       <workItem from="1633198962730" duration="7690000" />
       <workItem from="1633450634421" duration="47000" />
+      <workItem from="1633545069124" duration="526000" />
     </task>
     <servers />
   </component>
@@ -128,6 +91,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cha de caixa" />
+    <option name="LAST_COMMIT_MESSAGE" value="cha de caixa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
