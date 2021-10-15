@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mercadinhodaesquina;
+package aula05;
 
 /**
  *
  * @author Cl1sman ¯_(ツ)_/¯
  */
-public class Descontos {
-    private float descontoDez;
-    
-    public float desconto(float item){
-        return this.descontoDez = item * 0.1f;
+public class Aula05 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
     }
+    
 }
