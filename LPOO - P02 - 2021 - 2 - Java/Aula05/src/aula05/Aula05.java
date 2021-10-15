@@ -16,6 +16,18 @@ public class Aula05 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        ContaBanco Jubileu = new ContaBanco();
+        Jubileu.abrirConta("cp");
+        Jubileu.setDono("Jubileu");
+        Jubileu.depositar(300);
+        Jubileu.imprimir();
+        
+        ContaBanco Cleusa = new ContaBanco();
+        Cleusa.abrirConta("cc");
+        Cleusa.setDono("Cleusa");
+        Cleusa.depositar(500);
+        Cleusa.sacar(100);
+        Cleusa.imprimir();
     }
     
 }
