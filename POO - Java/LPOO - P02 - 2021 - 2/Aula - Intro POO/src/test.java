@@ -32,5 +32,6 @@ public class test {
         Pessoa p2 = new Pessoa("João", 25); // aqui ele vai usar o 2° construtor, definindo os atributos passados
         System.out.println("Pessoa1: " + p1.idade + ' ' + p1.nome);
         System.out.println("Pessoa2: " + p2.idade + ' ' + p2.nome);
+
     }
 }
