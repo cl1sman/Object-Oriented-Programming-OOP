@@ -16,12 +16,18 @@ public class Produto {
 
 
     // Construct
-    public Produto() {
-        this.setProduto("produto");
-        this.setQuantidadeDeProdutos(0);
-        this.setPreço(0.0f);
+    public Produto(){
+
     }
-    
+    public Produto(String produto){
+        this.setProduto(produto);
+    }
+    public Produto(String produto, int quantidade, float price) {
+        this.setProduto(produto);
+        this.setQuantidadeDeProdutos(quantidade);
+        this.setPreço(price);
+    }
+
     // Métodos Personalizados
     public void addProduto(String produto, int quantidade, float preço){
         this.setProduto(produto);
