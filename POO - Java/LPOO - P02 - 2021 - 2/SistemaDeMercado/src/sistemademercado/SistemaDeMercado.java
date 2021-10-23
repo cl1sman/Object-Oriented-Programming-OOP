@@ -69,4 +69,5 @@ public class SistemaDeMercado {
 //        }
 ////        float soma;
 ////        soma = ((produto1.getQuantidadeDeProdutos() * produto1.getPreço()) + (produto2.getQuantidadeDeProdutos() * produto2.getPreço()));
+    
 }
