@@ -4,6 +4,8 @@
 package sistemademercado;
 
 
+import java.util.Scanner;
+
 /**
  *
  * @author Cl1sman ¯_(ツ)_/¯
@@ -13,26 +15,23 @@ public class Produto {
     private String produto;
     private int quantidadeDeProdutos;
     private float preço;
+    Produto[] vetorDeProdutos;
 
 
     // Construct
     public Produto(){
 
     }
-    public Produto(String produto){
-        this.setProduto(produto);
-    }
-    public Produto(String produto, int quantidade, float price) {
-        this.setProduto(produto);
-        this.setQuantidadeDeProdutos(quantidade);
-        this.setPreço(price);
+    public Produto(int n){
+        vetorDeProdutos = new Produto[n]; // limite do vetor
     }
 
+
     // Métodos Personalizados
-    public void addProduto(String produto, int quantidade, float preço){
-        this.setProduto(produto);
-        this.setQuantidadeDeProdutos(quantidade);
-        this.setPreço(preço);
+    public void addProduto(String a, int b, float c){
+        this.setProduto(a);
+        this.setQuantidadeDeProdutos(b);
+        this.setPreço(c);
     }
 
     public String getProduto() {
