@@ -9,96 +9,96 @@ class ShirtShop{
     Camiseta ateQueOSolCaia = new Camiseta("G", "Abobora", true, 23.0, 5243.03);
 
     // os que se acham os donos
-    Pessoa jorge = new Pessoa("João Cleber", "19283412394", "12/12/12");
-    Pessoa thomasDeAdamantium = new Pessoa("Martolomeu No Rey", "10982374", "34/12/45");
-    Pessoa marcolinaMeirelis = new Pessoa("Entonildo da Silva", "1928374", "54/12/34");
+    Pessoa cliente1 = new Pessoa("João Cleber", "19283412394", "12/12/12");
+    Pessoa cliente2 = new Pessoa("Martolomeu No Rey", "10982374", "34/12/45");
+    Pessoa cliente3 = new Pessoa("Entonildo da Silva", "1928374", "54/12/34");
 
-    // As camisetas estão olhando para o seu Jorge
-    mamonas.dono = jorge; // fazendo mamonas.dono apontar para a posição na memoria de onde esta o objeto jorge.
+    // As camisetas estão olhando para a cliente1
+    mamonas.dono = cliente1; // fazendo mamonas.dono apontar para a posição na memoria de onde esta o objeto cliente1.
     florentinaFlorentina.dono = mamonas.dono;
 
-    // As camisetas estão olhando para o seu Thomas
-    passarinhosDoForro.dono = thomasDeAdamantium;
+    // As camisetas estão olhando para a cliente2
+    passarinhosDoForro.dono = cliente2;
     frotaEstelar.dono = passarinhosDoForro.dono;
 
-    // As camisetas estão olhando para a dona Marcolina
-    oMarNaoEVerde.dono = marcolinaMeirelis;
+    // As camisetas estão olhando para a dona cliente3
+    oMarNaoEVerde.dono = cliente3;
     ateQueOSolCaia.dono = oMarNaoEVerde.dono;
 
     // Passadno as camisetas para seus respectivos donos.
-    jorge.primeiraCamiseta = mamonas;
-    jorge.segundaCamiseta = florentinaFlorentina;
-    thomasDeAdamantium.primeiraCamiseta = passarinhosDoForro;
-    thomasDeAdamantium.segundaCamiseta = frotaEstelar;
-    marcolinaMeirelis.primeiraCamiseta = oMarNaoEVerde;
-    marcolinaMeirelis.segundaCamiseta = ateQueOSolCaia;
+    cliente1.primeiraCamiseta = mamonas;
+    cliente1.segundaCamiseta = florentinaFlorentina;
+    cliente2.primeiraCamiseta = passarinhosDoForro;
+    cliente2.segundaCamiseta = frotaEstelar;
+    cliente3.primeiraCamiseta = oMarNaoEVerde;
+    cliente3.segundaCamiseta = ateQueOSolCaia;
 
     System.out.println("Dono");
-    System.out.println(jorge.nome);
-    System.out.println(jorge.cpf);
-    System.out.println(jorge.dataDeNascimento);
+    System.out.println(cliente1.nome);
+    System.out.println(cliente1.cpf);
+    System.out.println(cliente1.dataDeNascimento);
     System.out.println("Camisetas");
-    System.out.println(jorge.primeiraCamiseta.tamanho);
-    System.out.println(jorge.primeiraCamiseta.cor);
-    System.out.println(jorge.primeiraCamiseta.possuiEstampa);
-    System.out.println(jorge.primeiraCamiseta.precoDeCusto);
-    System.out.println(jorge.primeiraCamiseta.precoDeVenda);
+    System.out.println(cliente1.primeiraCamiseta.tamanho);
+    System.out.println(cliente1.primeiraCamiseta.cor);
+    System.out.println(cliente1.primeiraCamiseta.possuiEstampa);
+    System.out.println(cliente1.primeiraCamiseta.precoDeCusto);
+    System.out.println(cliente1.primeiraCamiseta.precoDeVenda);
 
-    System.out.println(jorge.segundaCamiseta.tamanho);
-    System.out.println(jorge.segundaCamiseta.cor);
-    System.out.println(jorge.segundaCamiseta.possuiEstampa);
-    System.out.println(jorge.segundaCamiseta.precoDeCusto);
-    System.out.println(jorge.segundaCamiseta.precoDeVenda);
+    System.out.println(cliente1.segundaCamiseta.tamanho);
+    System.out.println(cliente1.segundaCamiseta.cor);
+    System.out.println(cliente1.segundaCamiseta.possuiEstampa);
+    System.out.println(cliente1.segundaCamiseta.precoDeCusto);
+    System.out.println(cliente1.segundaCamiseta.precoDeVenda);
     System.out.println("");
 
     System.out.println("Dono");
-    System.out.println(thomasDeAdamantium.nome);
-    System.out.println(thomasDeAdamantium.cpf);
-    System.out.println(thomasDeAdamantium.dataDeNascimento);
+    System.out.println(cliente2.nome);
+    System.out.println(cliente2.cpf);
+    System.out.println(cliente2.dataDeNascimento);
     System.out.println("Camisetas");
-    System.out.println(thomasDeAdamantium.primeiraCamiseta.tamanho);
-    System.out.println(thomasDeAdamantium.primeiraCamiseta.cor);
-    System.out.println(thomasDeAdamantium.primeiraCamiseta.possuiEstampa);
-    System.out.println(thomasDeAdamantium.primeiraCamiseta.precoDeCusto);
-    System.out.println(thomasDeAdamantium.primeiraCamiseta.precoDeVenda);
+    System.out.println(cliente2.primeiraCamiseta.tamanho);
+    System.out.println(cliente2.primeiraCamiseta.cor);
+    System.out.println(cliente2.primeiraCamiseta.possuiEstampa);
+    System.out.println(cliente2.primeiraCamiseta.precoDeCusto);
+    System.out.println(cliente2.primeiraCamiseta.precoDeVenda);
 
-    System.out.println(thomasDeAdamantium.segundaCamiseta.tamanho);
-    System.out.println(thomasDeAdamantium.segundaCamiseta.cor);
-    System.out.println(thomasDeAdamantium.segundaCamiseta.possuiEstampa);
-    System.out.println(thomasDeAdamantium.segundaCamiseta.precoDeCusto);
-    System.out.println(thomasDeAdamantium.segundaCamiseta.precoDeVenda);
+    System.out.println(cliente2.segundaCamiseta.tamanho);
+    System.out.println(cliente2.segundaCamiseta.cor);
+    System.out.println(cliente2.segundaCamiseta.possuiEstampa);
+    System.out.println(cliente2.segundaCamiseta.precoDeCusto);
+    System.out.println(cliente2.segundaCamiseta.precoDeVenda);
     System.out.println("");
 
     System.out.println("Dono");
-    System.out.println(marcolinaMeirelis.nome);
-    System.out.println(marcolinaMeirelis.cpf);
-    System.out.println(marcolinaMeirelis.dataDeNascimento);
+    System.out.println(cliente3.nome);
+    System.out.println(cliente3.cpf);
+    System.out.println(cliente3.dataDeNascimento);
     System.out.println("Camisetas");
-    System.out.println(marcolinaMeirelis.primeiraCamiseta.tamanho);
-    System.out.println(marcolinaMeirelis.primeiraCamiseta.cor);
-    System.out.println(marcolinaMeirelis.primeiraCamiseta.possuiEstampa);
-    System.out.println(marcolinaMeirelis.primeiraCamiseta.precoDeCusto);
-    System.out.println(marcolinaMeirelis.primeiraCamiseta.precoDeVenda);
+    System.out.println(cliente3.primeiraCamiseta.tamanho);
+    System.out.println(cliente3.primeiraCamiseta.cor);
+    System.out.println(cliente3.primeiraCamiseta.possuiEstampa);
+    System.out.println(cliente3.primeiraCamiseta.precoDeCusto);
+    System.out.println(cliente3.primeiraCamiseta.precoDeVenda);
 
-    System.out.println(marcolinaMeirelis.segundaCamiseta.tamanho);
-    System.out.println(marcolinaMeirelis.segundaCamiseta.cor);
-    System.out.println(marcolinaMeirelis.segundaCamiseta.possuiEstampa);
-    System.out.println(marcolinaMeirelis.segundaCamiseta.precoDeCusto);
-    System.out.println(marcolinaMeirelis.segundaCamiseta.precoDeVenda);
+    System.out.println(cliente3.segundaCamiseta.tamanho);
+    System.out.println(cliente3.segundaCamiseta.cor);
+    System.out.println(cliente3.segundaCamiseta.possuiEstampa);
+    System.out.println(cliente3.segundaCamiseta.precoDeCusto);
+    System.out.println(cliente3.segundaCamiseta.precoDeVenda);
     System.out.println("");
 
     // // Apontam para o mesmo endereço na memoria
-    // Pessoa jorge = new Pessoa("João Cleber", "19283412394", "12/12/12");
-    // mamonas.dono = jorge;
+    // Pessoa cliente1 = new Pessoa("João Cleber", "19283412394", "12/12/12");
+    // mamonas.dono = cliente1;
     //
     // System.out.println(mamonas.dono); // Pessoa@7344699f
-    // System.out.println(jorge); // Pessoa@7344699f
+    // System.out.println(cliente1); // Pessoa@7344699f
 
     // // Para onde mamonas aponta?
     // System.out.println(mamonas); // Camiseta@6b95977
     // System.out.println(florentinaFlorentina); // Camiseta@7e9e5f8a
 
-    // System.out.println(jorge.primeiraCamiseta); // Camiseta@6b95977
-    // System.out.println(jorge.segundaCamiseta); // Camiseta@7e9e5f8a
+    // System.out.println(cliente1.primeiraCamiseta); // Camiseta@6b95977
+    // System.out.println(cliente1.segundaCamiseta); // Camiseta@7e9e5f8a
   }
 }
