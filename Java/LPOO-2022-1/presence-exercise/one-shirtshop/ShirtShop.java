@@ -88,10 +88,13 @@ class ShirtShop{
     System.out.println("");
 
     // // Apontam para o mesmo endereço na memoria
+    // Pessoa jorge = new Pessoa("João Cleber", "19283412394", "12/12/12");
+    // mamonas.dono = jorge;
+    //
     // System.out.println(mamonas.dono); // Pessoa@7344699f
     // System.out.println(jorge); // Pessoa@7344699f
 
-    // // Para onde camiseta1 aponta?
+    // // Para onde mamonas aponta?
     // System.out.println(mamonas); // Camiseta@6b95977
     // System.out.println(florentinaFlorentina); // Camiseta@7e9e5f8a
 
