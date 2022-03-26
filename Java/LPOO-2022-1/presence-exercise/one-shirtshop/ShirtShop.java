@@ -13,15 +13,15 @@ class ShirtShop{
     Pessoa thomasDeAdamantium = new Pessoa("Martolomeu No Rey", "10982374", "34/12/45");
     Pessoa marcolinaMeirelis = new Pessoa("Entonildo da Silva", "1928374", "54/12/34");
 
-    // As camisas do Seu Jorge
+    // As camisetas estão olhando para o seu Jorge
     mamonas.dono = jorge; // fazendo mamonas.dono apontar para a posição na memoria de onde esta o objeto jorge.
     florentinaFlorentina.dono = mamonas.dono;
 
-    // As camisas do seu Thomas
+    // As camisetas estão olhando para o seu Thomas
     passarinhosDoForro.dono = thomasDeAdamantium;
     frotaEstelar.dono = passarinhosDoForro.dono;
 
-    // As camisas da dona Marcolina
+    // As camisetas estão olhando para a dona Marcolina
     oMarNaoEVerde.dono = marcolinaMeirelis;
     ateQueOSolCaia.dono = oMarNaoEVerde.dono;
 
