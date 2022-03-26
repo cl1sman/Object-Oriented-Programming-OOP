@@ -13,4 +13,4 @@ das camisetas e dos donos, atribua cada camiseta a um dono.  Por fim, seu
 sistema deve imprimir as informações pessoais de cada dono, em conjunto com as
 informações das camisetas que ele possui.
 
-<span style="color:red">Envie todas as classes Java construídas para a solução desse exercício.</span>.
+Envie todas as classes Java construídas para a solução desse exercício.
