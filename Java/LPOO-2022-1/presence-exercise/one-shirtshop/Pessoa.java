@@ -2,7 +2,7 @@ class Pessoa{
   String nome;
   String cpf;
   String dataDeNascimento;
-  Camiseta = primeitaCamiseta;
+  Camiseta primeiraCamiseta;
   Camiseta segundaCamiseta;
   // Constructors
   Pessoa(){}
@@ -15,7 +15,7 @@ class Pessoa{
     this.nome = nome;
     this.cpf = cpf;
     this.dataDeNascimento = dataDeNascimento;
-    this.umaDasCamisetas = primeiraCamiseta;
-    this.outraDasCamisetas = outraDasCamisetas;
+    this.primeiraCamiseta = primeiraCamiseta;
+    this.segundaCamiseta = segundaCamiseta;
   }
 }

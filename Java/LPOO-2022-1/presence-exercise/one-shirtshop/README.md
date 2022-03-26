@@ -3,7 +3,7 @@
 ###### Nessa atividade você construirá um sistema orientado a objetos da startup de camisetas ShirtShop.
 
 Uma camiseta é *identificada* pelo **tamanho** (que pode ser P, M, G ou GG), **cor**, se
-possui ou não **estampa**, **preço de custo** e **preço de venda**. *Uma camiseta possui umdono*, que é *identificado* pelo **nome completo**, **cpf** e **data de nascimento**. Como nossa startup ainda está em fase embrionária, no momento um dono de camisetas
+possui ou não **estampa**, **preço de custo** e **preço de venda**. *Uma camiseta possui um dono*, que é *identificado* pelo **nome completo**, **cpf** e **data de nascimento**. Como nossa startup ainda está em fase embrionária, no momento um dono de camisetas
 pode possuir no máximo duas camisetas da ShirtShop.
 
 Modele o cenário acima utilizando orientação a objetos. Após a construção das
