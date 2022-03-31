@@ -1,18 +1,19 @@
 public class ShirtShop {
     public static void main(String[] args) {
         Camiseta nsync = new Camiseta("A", "Vermelho", true, 10.0, 50.0);
-        Camiseta five = new Camiseta("B", "Vermelho", false, 10.0, 50.0);
-        Camiseta rouge = new Camiseta("D", "Rosa", true, 10.0, 50.0);
-        Camiseta broz = new Camiseta("E", "Vermelho", true, 10.0, 50.0);
-        Camiseta justin = new Camiseta("F", "Vermelho", true, 10.0, 50.0);
-        Camiseta eminem = new Camiseta("G", "Vermelho", true, 10.0, 50.0);
+        Camiseta five = new Camiseta("B", "Vermelho", true, 10.0, 50.0);
+        Camiseta rouge = new Camiseta("D", "Rosa", false, 10.0, 50.0);
+        Camiseta broz = new Camiseta("E", "Vermelho", false, 10.0, 50.0);
+        Camiseta justin = new Camiseta("F", "Vermelho", false, 10.0, 50.0);
+        Camiseta eminem = new Camiseta("G", "Vermelho", false, 10.0, 50.0);
         
         // Tentando colocar mais uma camiseta
-        Camiseta doRonaldo = new Camiseta("C", "Do teste", true, 10.0, 50.0);
+        Camiseta doRonaldo = new Camiseta("C", "Camiseta de um teste", true, 10.0, 50.0);
+        Camiseta doRonaldo2 = new Camiseta("C2", "Camiseta de mais um teste", true, 10.0, 50.0);
 
-        Pessoa dono1 = new Pessoa("Samuel", "123.456.789-10", "01/01/2001");
-        Pessoa dono2 = new Pessoa("Pafúncio", "123.345.789-10", "01/01/1900");
-        Pessoa dono3 = new Pessoa("Ziguifrido", "345.345.789-10", "01/01/1980");
+        Pessoa dono1 = new Pessoa("Samuel", "000.000.000-00", "00/00/0000");
+        Pessoa dono2 = new Pessoa("Pafúncio", "111.111.111-11", "11/11/1111");
+        Pessoa dono3 = new Pessoa("Ziguifrido", "333.333.333-33", "22/22/2222");
 
         // // a camiseta tem um dono
         // nsync.dono = dono1;
@@ -40,6 +41,8 @@ public class ShirtShop {
         dono1.recebaCamiseta(five);
         dono1.recebaCamiseta(doRonaldo);
         doRonaldo.recebaDono(dono1);
+        dono1.recebaCamiseta(doRonaldo2);
+        doRonaldo2.recebaDono(dono1);
 
         dono2.recebaCamiseta(rouge);
         dono2.recebaCamiseta(broz);
