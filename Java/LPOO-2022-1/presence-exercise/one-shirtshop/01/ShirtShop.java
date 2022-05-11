@@ -10,6 +10,7 @@ public class ShirtShop {
         // Tentando colocar mais uma camiseta
         Camiseta doRonaldo = new Camiseta("C", "Camiseta de um teste", true, 10.0, 50.0);
         Camiseta doRonaldo2 = new Camiseta("C2", "Camiseta de mais um teste", true, 10.0, 50.0);
+        Camiseta doRonaldo3 = new Camiseta("C3", "Camiseta de mais um teste", true, 10.0, 50.0);
 
         Pessoa dono1 = new Pessoa("Samuel", "000.000.000-00", "00/00/0000");
         Pessoa dono2 = new Pessoa("Pafúncio", "111.111.111-11", "11/11/1111");
@@ -40,14 +41,23 @@ public class ShirtShop {
         dono1.recebaCamiseta(nsync);
         dono1.recebaCamiseta(five);
         dono1.recebaCamiseta(doRonaldo);
-        doRonaldo.recebaDono(dono1);
+        // doRonaldo.recebaDono(dono1);
         dono1.recebaCamiseta(doRonaldo2);
-        doRonaldo2.recebaDono(dono1);
+        // doRonaldo2.recebaDono(dono1);
+        dono1.recebaCamiseta(doRonaldo3);
+        // doRonaldo3.recebaDono(dono1);
 
         dono2.recebaCamiseta(rouge);
         dono2.recebaCamiseta(broz);
         dono3.recebaCamiseta(justin);
         dono3.recebaCamiseta(eminem);
+        
+        /*
+        O methodo recebaDono não e faz necessario, porque quando fizer uso do recebaCamiseta, já farei
+        o dono receber a camiseta, e a camiseta o dono. Farei as duas coisas em um lugar só.
+        e isso só é possivel, porque tenho uma composição, ou seja, uma coisa de um no outro. 
+        Tenho no dono algo que possa vincular com a camiseta, e algo na camiseta que possa vincular com o dono.
+
         // * aqui estou pasando o dono para a camiseta
         nsync.recebaDono(dono1);
         five.recebaDono(dono1);
@@ -55,6 +65,7 @@ public class ShirtShop {
         broz.recebaDono(dono2);
         justin.recebaDono(dono3);
         eminem.recebaDono(dono3);
+        */
 
         
         dono1.mostra();

@@ -1,24 +1,20 @@
-public class Pessoa {
+public class Cliente {
     String nome;
     String cpf;
     String dataDeNascimento;
-    /**
-     * Quando você cria um objeto, as variaveis dele existem
-     * Então, todos os atributos aqui vão iniciar com seus valores padrões.
-     * no caso da camiseta1, não tem necessidade de dar um new, porque ele já foi declarado.
-     * O atributo existe. Então, basta fazer com que ele olhe para algum lugar. Pois ele já existe, mas inicia com null.
-     */
-    // Camiseta camiseta1; // atributo de composição. O new declara esses atributos, começando com null, assim, basta faze-lo olhar para um lugar.
-    // Camiseta camiseta2;
+
 
     Camiseta camisetas[]; // aqui declaramos um array de camisetas
 
-    Pessoa(String nome, String cpf, String dataDeNascimento) {
+    Cliente(){
+
+    }
+
+    Cliente(String nome, String cpf, String dataDeNascimento) {
         this.nome = nome;
         this.cpf = cpf;
         this.dataDeNascimento = dataDeNascimento;
-
-        this.camisetas = new Camiseta[2]; // atribuimos o tamanho do array
+        this.camisetas = new Camiseta[1]; // atribuimos o tamanho do array
     }
 
     void recebaCamiseta(Camiseta camiseta) { // aqui estou passando uma camiseta(objeto camiseta) para o metodo
@@ -29,8 +25,6 @@ public class Pessoa {
                 acheiEspaco = true;
             }
         }
-        camiseta.dono = this;
-
         if(!acheiEspaco) {
             // Se vira! Acha mais espaço! Cria! Se resolve!
             // Problema seu!

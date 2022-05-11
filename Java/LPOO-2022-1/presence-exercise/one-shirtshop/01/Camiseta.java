@@ -42,7 +42,7 @@ public class Camiseta {
     }
 
     // Métodos
-    void recebaDono(Pessoa dono) {
-        this.dono = dono;
-    }
+    // void recebaDono(Pessoa dono) {
+    //     this.dono = dono;
+    // } Melhor não usar, porque não é uma boa prática. Melhor fazer com que o metodo lá em pessoa, já faço os dois.
 }
