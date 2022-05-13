@@ -85,5 +85,27 @@ public class ProgramaPrincipal {
     
         // Hugs
         // For para enviar e receber abraços?
+        
+        for (int i = 0; i < vetorDeUsuarios.length; i++) {
+            if (vetorDeUsuarios[i] != null) {
+                vetorDeUsuarios[i].enviarAbraco(vetorDeUsuarios[i+1]);
+                vetorDeUsuarios[i].receberAbraco(vetorDeUsuarios[i+1]);
+            }
+
+            // if (vetorDeUsuarios[i] instanceof Animal) {
+            //     Animal animal = (Animal) vetorDeUsuarios[i];
+            //     animal.enviarAbraco(vetorDeUsuarios[i+1]);
+            //     animal.receberAbraco(vetorDeUsuarios[i-1]);
+            // } else if (vetorDeUsuarios[i] instanceof Roqueiro) {
+            //     Roqueiro roqueiro = (Roqueiro) vetorDeUsuarios[i];
+            //     roqueiro.enviarAbraco(vetorDeUsuarios[i+1]);
+            //     roqueiro.receberAbraco(vetorDeUsuarios[i-1]);
+            // } else if (vetorDeUsuarios[i] instanceof Emo) {
+            //     Emo emo = (Emo) vetorDeUsuarios[i];
+            //     emo.enviarAbraco(vetorDeUsuarios[i+1]);
+            //     emo.receberAbraco(vetorDeUsuarios[i-1]);
+            // }
+            // vetorDeUsuarios[i].enviarAbraco(vetorDeUsuarios[i+1]);
+        }
     }
 }
