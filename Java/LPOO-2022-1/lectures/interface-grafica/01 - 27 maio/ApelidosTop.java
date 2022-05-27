@@ -1,6 +1,14 @@
 import javax.swing.JFrame;
+import java.awt.FlowLayout;
 
 public class ApelidosTop extends JFrame{
+    private JLabel imagemGirafa;
+    private JLabel textoGirafa;
+    private JLabel placarGirafa;
+
+    private JLabel imagemVarejao;
+    private JLabel 
+
     public ApelidosTop(){
         super("Titulo da janela");
 
@@ -15,6 +23,8 @@ public class ApelidosTop extends JFrame{
     private void prepararJanela() {
         setSize(800, 200);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setLayout(); // o estilista da tela. é um objeto que precisa passar.
+        setLayout(FlowLayout); // o estilista da tela. é um objeto que precisa passar.
     }
+
+    
 }
